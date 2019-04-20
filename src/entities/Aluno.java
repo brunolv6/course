@@ -57,7 +57,8 @@ public class Aluno {
 	}
 	
 	public Double getMedia() {
-		Double provas = 0.0, media = -1.0;
+		Double provas = 0.0;
+		Double media = -1.0;
 		if(notas_provas.size() == 2 && nota_trabalho != null) {
 			media = 0.0;
 			for(Double n : notas_provas) {
